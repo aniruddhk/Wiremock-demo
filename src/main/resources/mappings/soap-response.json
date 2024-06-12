@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/soap/service"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/xml"
+    },
+    "body": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:example=\"http://www.example.com/\"><soapenv:Header/><soapenv:Body><example:Response><example:Message>Hello, SOAP world!</example:Message></example:Response></soapenv:Body></soapenv:Envelope>"
+  }
+}
